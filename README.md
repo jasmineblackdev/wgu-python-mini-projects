@@ -1,2 +1,24 @@
-# wgu-python-mini-projects
-Small WGU-style Python projects
+# WGU Python Mini Projects
+
+This repo contains small Python programs I wrote to practice:
+- Reading problem descriptions
+- Turning them into flowcharts
+- Converting flowcharts into `if/elif/else` logic in Python
+
+## Projects
+
+1. **Graduation Checker**
+   – Asks for completed credits, required credits, GPA, and capstone status.
+   – Tells you if you're eligible to graduate or what you're missing.
+
+2. **Study Time Planner**
+   – Asks how many courses you're taking and hours you can study per week.
+   – Tells you if you're on track or might fall behind.
+
+3. **Financial Aid Recommender**
+   – Uses GPA, income, credits, and first-gen status.
+   – Suggests what type of aid tier you might qualify for.
+
+4. **WGU Term Load Advisor**
+   – Calculates recommended course load based on work status.
+   – Helps determine if your classes are balanced, heavy, or light for the term.
