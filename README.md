@@ -31,7 +31,7 @@ Helps determine whether a term plan is *balanced*, *heavy*, or *light*.
 - Random secret word from a list  
 - User guesses one word at a time  
 - Built without loops using nested conditionals  
-- Expanded version allows multiple guess attempts
+- Expanded version allows multiple guess attempts  
 
 **Skills:** lists, string logic, `random.choice()`, `.lower()` input handling
 
@@ -41,7 +41,7 @@ Helps determine whether a term plan is *balanced*, *heavy*, or *light*.
 - User selects menu item by number (1–3)  
 - Price is added to a running total  
 - Program asks if they want to add a drink  
-- Outputs final total at the end
+- Outputs final total at the end  
 
 **Skills:** parallel lists, user input, arithmetic, conditional flow
 
@@ -50,9 +50,31 @@ Helps determine whether a term plan is *balanced*, *heavy*, or *light*.
 ### 7. 🔢 High–Low Number Guessing Game  
 - Computer picks a number between **1–10**  
 - User gets three attempts to guess it  
-- Program returns **Higher / Lower / You Win**
+- Program returns **Higher / Lower / You Win**  
 
 **Skills:** comparison operators, nested conditionals, program branching
+
+---
+
+### 8. 🔐 PyPassword Generator  
+Interactive password generator that builds a randomized password based on user preferences.
+
+- User chooses how many **letters**, **symbols**, and **numbers** to include  
+- Characters are selected from predefined lists  
+- The final password list is shuffled, then joined into a single string  
+
+**Skills:** lists, `for` loops, `random.choice()`, `random.shuffle()`, string joining (`"".join()`), user input
+
+---
+
+### 9. 🧾 2K Name Generator  
+Generates random full names by combining first and last names.
+
+- User chooses how many names to generate  
+- Program randomly selects a first name and last name for each result  
+- Useful for testing, placeholder data, or character ideas  
+
+**Skills:** lists, `for` loops, `random.choice()`, f-strings, user input, basic program structure
 
 ---
 
@@ -62,10 +84,11 @@ Helps determine whether a term plan is *balanced*, *heavy*, or *light*.
 |---|---|
 | Reading requirements → planning | All projects |
 | Variables & input handling | All projects |
-| Lists + indexing | Menu, Word Guess |
+| Lists + indexing | Menu, Word Guess, Password Generator, Name Generator |
 | `if / elif / else` logic | All projects |
-| Randomization module | Word + Number Guess |
+| Randomization module | Word Guess, Number Guess, Password Generator, Name Generator |
 | Basic program flow design | All projects |
+| Intro to loops (`for`) | Password Generator, Name Generator |
 
 ---
 
@@ -75,4 +98,4 @@ Helps determine whether a term plan is *balanced*, *heavy*, or *light*.
 - Adding replay options + multiple rounds  
 - Introducing functions to reduce repeated code  
 
-These projects mark the foundation of my Python development journey — step by step, leveling up through logic, structure, and design.
+These projects mark the foundation of my Python development journey — step by step, leveling up.through logic, structure, and design.
